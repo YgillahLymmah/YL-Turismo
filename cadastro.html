@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>YL TURISMO</title>
+
+	<style type="text/css">
+
+		/* Configuraçao padrão da página */
+
+body .html {
+	margin: 0;
+	font: 16px 'Times', "Times New Roman", serif;
+	color: #777;
+	height: 100vh;
+}
+
+.conteudo{
+	margin: 50px;
+	color: #777;
+	background-color: beige;
+	text-align: center;
+	padding: 50px 80px;
+}
+
+h3{
+	text-transform: uppercase;
+	color: #111;
+	text-align: center;
+}
+
+p{
+	margin-bottom: 20px ;
+}
+
+/* Efeito Parallax */
+.caixa1, .caixa2, .caixa3, .caixa4 {
+	position: relative;
+    height: 100vh;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.caixa1 {
+background-image: url(imagens/imagem1.jpg);
+}
+
+.caixa2 {
+background-image: url(imagens/imagem2.jpg);
+}
+
+.caixa3 {
+background-image: url(imagens/imagem3.jpg);
+}
+
+.caixa4 {
+background-image: url(imagens/imagem4.jpg);
+}
+
+.conteudo-titulo{
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-titulo span.titulo{
+	color: #fff;
+    background-color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+body.home #navegacao a#home,
+body.cadastro #navegacao a#cadastro,
+body.destino #navegacao a#destino
+
+a:link, a:visited{
+	color: black;
+	padding: 2px;
+}
+
+a:hover{
+	color: #e50040;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li{
+	margin: 10px;
+	padding: 10px;
+    float: left;
+    list-style: none;
+}
+
+#topo ul{
+	padding-top: 10px;
+	margin-top: 10px;
+    
+    float: right;
+}
+
+li a{
+	text-indent: inherit;
+}
+
+.home {
+	text-align: center;
+}
+
+#topo ul li{
+	text-align: right;
+	width: 100px;
+}
+
+.cadastro2{
+	text-align: center;
+}
+
+.cadastro{
+	width: 100%;
+	background-color: beige;
+}
+
+.bts{
+	margin: 20px;
+}
+
+.bp{
+	margin: -10px;
+}
+
+.yg{
+	margin: 10px;
+}
+
+	</style>
+</head>
+<body class="cadastro">
+<br>
+<br>
+<form>
+<div class="cadastro2"><b> 📝 CADASTRO 📝 </b></div>
+<br>
+<br>
+<div>
+<label class="bts" for="nome">🥰 Nome:</label>
+<input type="text" name="nome" id="nome" placeholder="Nome Completo">
+</div>
+<br>
+<div>
+<label class="bts" for="cpf">🥰 CPF:</label>
+<input class="yg" type="text" name="cpf" id="cpf" placeholder="Digite seu CPF">
+</div>
+<br>
+<div>
+	<label class="bts" for="email">🥰 Email:</label>
+	<input type="text" name="email" id="email" placeholder="E-mail">
+</div>
+<br>
+<br>
+<div>
+	<label class="bts" for="senha">🥰 Senha:</label>
+		<input class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha">
+	</div>
+<br>
+<br>
+<div>
+<label class="bts" for="numero">🥰 Contato:</label>
+<input class="bp" type="tel" name="numero" id="numero" placeholder="Telefone celular">
+</div>
+<br>
+<div>
+	<input class="bts" class="submit" type="submit" value="Cadastrar">
+</div>
+
+
+</form>
+<br>
+<br>
+<br>
+<div class="caixa1">
+	
+<div class="conteudo-titulo">
+	<span class="titulo">YL TURISMO</span>
+</div>
+
+</div>
+
+</body>
+</html>
